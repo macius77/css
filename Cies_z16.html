@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            width: 430px;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <ol>
+        <li>
+            <h1>Pytanie 1.</h1>
+            <ul>
+            <li>Element Blokowy</li> 
+            <li><textarea><div style="cecha: wartość; cecha2: wartość2...">...</div></textarea></li>
+            <li></li>
+            <li>Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie
+            zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia
+            obszerniejszych struktur.</li>
+            <li>ALIGN="ustawienie"
+            Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):
+            center - wyśrodkowanie
+            justify - wyrównanie do obu marginesów jednocześnie
+            left - wyrównanie do lewej
+            right - wyrównanie do prawej</li>
+            <li>ALIGN, CLASS, DIR, ID, LANG, STYLE, TITLE</li>
+        </ul>
+        </li>
+        <li>
+            <h1>Pytanie 2.</h1>
+            <ul>
+                <li>Element liniowy</li> 
+                <li><textarea><span style="cecha1: wartość1; cecha2: wartość2...">...</span></textarea></li>
+                <li>Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do
+                    wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf <p> z zasady
+                    nie może zawierać elementów blokowych) tylko span</li>
+                <li> <textarea style="height: 170px;">Znacznik <span>...</span> pozwala na objęcie pewnego większego fragmentu dokumentu.
+                    Pojedynczym znacznikiem <span>...</span> możemy objąć kilka różnych elementów, które
+                    są wyświetlane w linii (sam element SPAN tak właśnie jest wyświetlany), np. wytłuszczenie
+                    tekstu oraz kursywę. Element ten tak dobrze nadaje się do osadzania stylów, ponieważ sam w
+                    sobie nie ma określonego żadnego formatowania, które mogłoby kolidować z efektem, jaki
+                    chcemy uzyskać.</textarea></li>
+            </ul>
+        </li>
+        <li>
+            <h1>Pytanie 3.</h1>
+            Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe
+            (blokowe elementy, większe fragmenty struktury składające się na układ strony)
+        </li>
+        <li>
+            <h1>Pytanie 4.</h1>
+                <ol>
+                    <li>Liniowe: <br>
+                        nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w
+                        jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na
+                        "inline"
+                    </li>
+                    <li>Blokowe: <br>
+                        z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod
+                        drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym
+                        przeglądarka ustawia właściwość "display" na "block"
+                    </li>
+                    <li>Blokowo-Liniowe: <br>
+                        z kolei będą zachowywać się jak liniowe, jeśli chodzi o
+                        położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że
+                        możesz nadać im różne wielkości. Ma to sens, np. <textarea style="width: 75px;height: 20px;"><textarea></textarea> wyświetla się jako duży
+                        prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom
+                        liniowo blokowym przeglądarka ustawia właściwość "display" na "inline-block"
+                    </li>
+                </ol>
+        </li>
+    </ol>
+</body>
+</html>
+<!--Maciej Cieszewski-->
